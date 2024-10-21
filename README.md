@@ -13,4 +13,4 @@
 - The predictions are linked to a flask-based web-app where user can see a visual output, along with graph representation of training dataset.<br>
 
 ###### Index screen view - visualization of training dataaset composition.<br>
-
+![Project Diagram](screenshots/index.png)
