@@ -8,6 +8,9 @@
 -----------
 
 #### The Solution.<br>
-The core mechanism of this solution is NLP-based feature extraction using NLTK, serving as training data for a multioutput XGBoost classifier.<br>
-This classifier is trained to classify 36 different targets.<br>
- 
+- The core mechanism of this solution is NLP-based feature extraction using NLTK, serving as training data for a multioutput XGBoost classifier.<br>
+- This classifier is trained to classify 36 different targets, being various types of disasters.<br>
+- The predictions are linked to a flask-based web-app where user can see a visual output, along with graph representation of training dataset.<br>
+
+###### Index screen view - visualization of training dataaset composition.<br>
+
