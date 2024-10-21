@@ -15,11 +15,11 @@
 -----------
 
 #### How to run the project.<br>
-- Data needed : disasters_messages dataframe, disasters_categories dataframe <br>
+Data needed : disasters_messages dataframe, disasters_categories dataframe <br>
 **To run the ETL script, use command :**<br>
-- python process_data.py ./data/disaster_messages.csv ./data/disaster_categories.csv ./data/disaster_database    <br>
+  python process_data.py ./data/disaster_messages.csv ./data/disaster_categories.csv ./data/disaster_database    <br>
 **To run the ML Training script, use command :**<br>
-- python train_classifier.py ./data/disaster_database.db ./models/classifier.pkl   <br>
+  python train_classifier.py ./data/disaster_database.db ./models/classifier.pkl   <br>
 **To launch the web-app :**  simply run the app.py script.<br>
 
 -----------
